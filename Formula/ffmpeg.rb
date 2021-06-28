@@ -15,7 +15,6 @@ class Ffmpeg < Formula
   end
 
   bottle do
-    root_url "https://kobiton-devvn.s3-ap-southeast-1.amazonaws.com/downloads/ffmpeg/4.3.2_4"
     sha256 arm64_big_sur: "549f899dadc339af7069355aa3a34591f536843efc431b2541693bc806ca5048"
     sha256 big_sur:       "5275547e1b3dba43749ce3d91ddd92120ccc6d5f98090dd01dba2a2e615d8166"
     sha256 catalina:      "5584b6d04f9d24a3bae17c6ebd640a7023e063b5c879b9a1cfb584dc51e6a527"
