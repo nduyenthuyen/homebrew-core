@@ -49,7 +49,7 @@ class Ffmpeg < Formula
   depends_on "tesseract"
   depends_on "theora"
   depends_on "webp"
-  depends_on "duyenthuyen/core/x264"
+  depends_on "nduyenthuyen/core/x264"
   depends_on "x265"
   depends_on "xvid"
   depends_on "xz"
