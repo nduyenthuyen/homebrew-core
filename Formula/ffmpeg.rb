@@ -35,13 +35,11 @@ class Ffmpeg < Formula
   depends_on "nduyenthuyen/core/libbluray"
   depends_on "nduyenthuyen/core/libsoxr"
   depends_on "nduyenthuyen/core/libvidstab"
-  depends_on "nduyenthuyen/core/libvorbis"
-
+  depends_on "libvorbis"
   depends_on "nduyenthuyen/core/libvpx"
   depends_on "nduyenthuyen/core/opencore-amr"
-  depends_on "nduyenthuyen/core/openjpeg"
-  depends_on "nduyenthuyen/core/opus"
-  
+  depends_on "openjpeg"
+  depends_on "opus"
   depends_on "nduyenthuyen/core/rav1e"
   depends_on "nduyenthuyen/core/rubberband"
   depends_on "nduyenthuyen/core/sdl2"
@@ -50,12 +48,12 @@ class Ffmpeg < Formula
   depends_on "nduyenthuyen/core/srt"
   depends_on "nduyenthuyen/core/tesseract"
   depends_on "nduyenthuyen/core/theora"
-  depends_on "nduyenthuyen/core/webp"
+  depends_on "webp"
   
   depends_on "nduyenthuyen/core/x264"
   depends_on "nduyenthuyen/core/x265"
   depends_on "nduyenthuyen/core/xvid"
-  depends_on "nduyenthuyen/core/xz"
+  depends_on "xz"
   depends_on "nduyenthuyen/core/zeromq"
   depends_on "nduyenthuyen/core/zimg"
 
