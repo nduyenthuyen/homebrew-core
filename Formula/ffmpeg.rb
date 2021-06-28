@@ -26,7 +26,7 @@ class Ffmpeg < Formula
   depends_on "pkg-config" => :build
   depends_on "nduyenthuyen/core/aom"
   depends_on "nduyenthuyen/core/dav1d"
-  depends_on "nduyenthuyen/core/fontconfig"
+  depends_on "fontconfig"
   depends_on "freetype"
   depends_on "nduyenthuyen/core/frei0r"
   depends_on "nduyenthuyen/core/gnutls"
@@ -36,10 +36,12 @@ class Ffmpeg < Formula
   depends_on "nduyenthuyen/core/libsoxr"
   depends_on "nduyenthuyen/core/libvidstab"
   depends_on "nduyenthuyen/core/libvorbis"
+
   depends_on "nduyenthuyen/core/libvpx"
   depends_on "nduyenthuyen/core/opencore-amr"
   depends_on "nduyenthuyen/core/openjpeg"
   depends_on "nduyenthuyen/core/opus"
+  
   depends_on "nduyenthuyen/core/rav1e"
   depends_on "nduyenthuyen/core/rubberband"
   depends_on "nduyenthuyen/core/sdl2"
@@ -49,6 +51,7 @@ class Ffmpeg < Formula
   depends_on "nduyenthuyen/core/tesseract"
   depends_on "nduyenthuyen/core/theora"
   depends_on "nduyenthuyen/core/webp"
+  
   depends_on "nduyenthuyen/core/x264"
   depends_on "nduyenthuyen/core/x265"
   depends_on "nduyenthuyen/core/xvid"
