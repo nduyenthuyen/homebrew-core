@@ -22,11 +22,11 @@ class Ffmpeg < Formula
     sha256 mojave:        "39af46559faf9aeb3aefa10c60aefd1563815518fdab86a1fa44ec11e886da1a"
   end
 
-  depends_on "nduyenthuyen/core/nasm" => :build
-  depends_on "nduyenthuyen/core/pkg-config" => :build
+  depends_on "nasm" => :build
+  depends_on "pkg-config" => :build
   depends_on "nduyenthuyen/core/aom"
   depends_on "nduyenthuyen/core/dav1d"
-  depends_on "nduyenthuyen/core/fontconfig"
+  depends_on "fontconfig"
   depends_on "freetype"
   depends_on "nduyenthuyen/core/frei0r"
   depends_on "nduyenthuyen/core/gnutls"
