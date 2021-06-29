@@ -27,7 +27,7 @@ class Ffmpeg < Formula
   depends_on "nduyenthuyen/core/aom"
   depends_on "nduyenthuyen/core/dav1d"
   depends_on "nduyenthuyen/core/fontconfig"
-  depends_on "nduyenthuyen/core/freetype"
+  depends_on "freetype"
   depends_on "nduyenthuyen/core/frei0r"
   depends_on "nduyenthuyen/core/gnutls"
   depends_on "nduyenthuyen/core/lame"
