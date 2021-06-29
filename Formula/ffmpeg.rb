@@ -86,14 +86,14 @@ class Ffmpeg < Formula
       --enable-librav1e
       --enable-librubberband
       --enable-libsnappy
-      #--enable-libsrt
+      --disable-libsrt
       --enable-libtesseract
       --enable-libtheora
       --enable-libvidstab
       --enable-libvorbis
       --enable-libvpx
       --enable-libwebp
-      #--enable-libx264
+      --disable-libx264
       --enable-libx265
       --enable-libxml2
       --enable-libxvid
