@@ -22,9 +22,9 @@ class Libass < Formula
 
   depends_on "nasm" => :build
   depends_on "pkg-config" => :build
-  depends_on "freetype"
-  depends_on "fribidi"
-  depends_on "harfbuzz"
+  depends_on "kobiton/core/freetype"
+  depends_on "kobiton/core/fribidi"
+  depends_on "kobiton/core/harfbuzz"
 
   on_linux do
     depends_on "fontconfig"
